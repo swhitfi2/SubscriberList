@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">  <!-- added to form stores user data input -->
+<head>
+
+<title>Subscriber List</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<body>
+	<h1>Welcome Subscriber</h1>
+	
+	<h3>Here is the information you provided</h3>
+	
+	<!--<p>Please use the form below to subscribe</p>-->
+	
+	<!-- basic table form creation the th is for thyme leaf -->
+	
+		<p>First Name: <span th:text="${firstName}"></span></p>
+		
+		<p>Last Name: <span th:text="${lastName}"></span></p>
+		
+		<p>Email: <span th:text="${email}"></span></p>
+		
+		<p>UserName: <span th:text="${userName}"></span></p>
+		
+		<p>Password: <span th:text="${password}"></span></p>
+		
+		 <p>Birthday: <span th:text="${dateOfBirth}"></span>
+	
+
+</body>
+
+</head>
+
+
+
+
+</html>
